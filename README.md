@@ -41,6 +41,8 @@ V. API Response Parsing: The received data from the API response is parsed using
 
 VI. Weather Information Display: The weather() function takes the parsed weather data and displays the formatted weather information on the command line. It includes the city name, weather symbol, weather description, and temperature in the desired unit.
 
+![Forecast Architecture](forecast_architecture2.png)
+
 ## GitHub Copilot Usage
 
  GitHub Copilot can assist in various scenarios throughout the codebase::
