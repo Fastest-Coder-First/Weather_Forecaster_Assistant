@@ -2,7 +2,6 @@
 Weather forecaster assistant Weather One is a personal AI assistant who can tell information about the temperature of any city worldwide.
 
 ## Usage
-
 1. Clone the repository using the command below
    * $ git clone https://github.com/Fastest-Coder-First/Weather_Forecaster_Assistant.git
 
@@ -25,13 +24,21 @@ It includes:
 
 ## Requirements
 The required modules and library of the code can be found requirement.txt file.
+All the required libraries can be installed using the pip command with the version also mentioned.
+
+
+## Modules
+1. Requests: Requests is a simple, yet elegant, HTTP library. Requests allow you to send HTTP/1.1 requests extremely easily. There’s no need to manually add query strings to your URLs, or to form-encode your PUT & POST data — but nowadays, just use the JSON method!
+2. Pyttsx3: pyttsx3 is a text-to-speech conversion library in Python. Unlike alternative libraries, it works offline and is compatible with both Python 2 and 3.
+3. SpeechRecognition: Library for performing speech recognition, with support for several engines and APIs, online and offline.
+
 
 ## Architecture 
 The architecture of the Weather Forecasting Tool follows a simple flow:
     
 I. Command Line Interface (CLI): The user interacts with the tool through the command line by providing the city name and optional flags for imperial units.
     
-II. Command Line Argument Parsing: The ppytext module is used to take commands from the user in the command line arguments provided by the user, including the city name.
+II. Command Line Argument Parsing: The pyttsx3 module is used to take commands from the user in the command line arguments provided by the user, including the city name.
     
 III. API Request Building: The build_weather_query function constructs the URL for an API request to the OpenWeatherMap Weather API. It utilizes the provided city name and imperial unit flag to create the query URL.
 
@@ -45,7 +52,7 @@ VI. Weather Information Display: The weather() function takes the parsed weather
 
 ## GitHub Copilot Usage
 
- GitHub Copilot can assist in various scenarios throughout the codebase::
+GitHub Copilot can assist in various scenarios throughout the codebase::
 
 + API Request URL Building: Copilot can provide suggestions for constructing the API request URL based on the city name and imperial unit flag, ensuring the correct formatting of the URL parameters.
 
@@ -58,6 +65,7 @@ VI. Weather Information Display: The weather() function takes the parsed weather
 + Variable Naming and Code Organization: Copilot can provide suggestions for variable naming and code organization, helping to improve the readability and maintainability of the codebase.
       
 Please note that while GitHub Copilot can provide helpful suggestions, it's important to review and validate the generated code to ensure correctness and adherence to specific requirements.
+
 
 # Images/Videos of Working Solution
 Included relevant image showcasing working solution. This includes screenshots output.png  of the assistant in action. Also, the working of the tool can be found in the video weather.mp4 which demonstrates the working of the assistant.
