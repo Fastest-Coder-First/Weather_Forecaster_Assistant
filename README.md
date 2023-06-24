@@ -4,14 +4,14 @@ Weather forecaster assistant Weather One is a personal AI assistant who can tell
 # Usage
 
 1. Clone the repository using the command below
-   git clone https://github.com/Fastest-Coder-First/Weather_Forecaster_Assistant.git
+   ~git clone https://github.com/Fastest-Coder-First/Weather_Forecaster_Assistant.git
 
 2. Sign Up on OpenWeatherMap to generate an API key
-   api_key="Your API key"
-   base_url = "Base URL of OpenWeatherMap"
+   ~api_key="Your API key"
+   ~base_url = "Base URL of OpenWeatherMap"
 
 3. Run the Assistant using the command below in the command line tool
-   python weather_forecast.py
+   ~python weather_forecast.py
 
 
 # Weather Information
