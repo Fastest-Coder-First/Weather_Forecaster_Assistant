@@ -1,0 +1,5 @@
+Required modules and libraries to the the code are:
+speech_recognition==3.10.0
+pyttsx3==2.90
+TIME-python==0.0.17
+requests==2.31.0
