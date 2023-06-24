@@ -1,20 +1,20 @@
 # Weather_Forecaster_Assistant
 Weather forecaster assistant Weather One is a personal AI assistant who can tell information about the temperature of any city worldwide.
 
-# Usage
+## Usage
 
 1. Clone the repository using the command below
-   "*" git clone https://github.com/Fastest-Coder-First/Weather_Forecaster_Assistant.git
+   * $ git clone https://github.com/Fastest-Coder-First/Weather_Forecaster_Assistant.git
 
 2. Sign Up on OpenWeatherMap to generate an API key
-   "*" api_key = "Your API key"
-   "*" base_url = "Base URL of OpenWeatherMap"
+    * api_key = "Your API key"
+    * base_url = "Base URL of OpenWeatherMap"
 
 3. Run the Assistant using the command below in the command line tool
-   "*" python weather_forecast.py
+    * python weather_forecast.py
 
 
-# Weather Information
+## Weather Information
 Weather One can tell the temperature of any city worldwide using OpenWeatherMap API.
 It includes:
 * The current temperature of the city
@@ -23,10 +23,10 @@ It includes:
 * The current minimum temperature of the city
 * The description of the temperature
 
-# Requirements
+## Requirements
 The required modules and library of the code can be found requirement.txt file.
 
-# Architecture 
+## Architecture 
 The architecture of the Weather Forecasting Tool follows a simple flow:
     
 I. Command Line Interface (CLI): The user interacts with the tool through the command line by providing the city name and optional flags for imperial units.
@@ -41,7 +41,7 @@ V. API Response Parsing: The received data from the API response is parsed using
 
 VI. Weather Information Display: The weather() function takes the parsed weather data and displays the formatted weather information on the command line. It includes the city name, weather symbol, weather description, and temperature in the desired unit.
 
-# GitHub Copilot Usage
+## GitHub Copilot Usage
 
  GitHub Copilot can assist in various scenarios throughout the codebase::
 
