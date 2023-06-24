@@ -62,3 +62,4 @@ Please note that while GitHub Copilot can provide helpful suggestions, it's impo
 # Images/Videos of Working Solution
 Included relevant image showcasing working solution. This includes screenshots output.png  of the assistant in action. Also, the working of the tool can be found in the video weather.mp4 which demonstrates the working of the assistant.
 
+![Output](output.png)
